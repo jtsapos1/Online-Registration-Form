@@ -38,6 +38,8 @@ form {
 
 .newsletter {
 	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 
@@ -115,8 +117,6 @@ legend {
 
 label {
 	display: block;
-	text-align: left;
-	width: 150px;
 	margin-bottom: 8px;
 }
 
@@ -160,9 +160,8 @@ label.light {
 		margin: auto;
 	}
 
-	.label {
-		display: inline;
-		width: 150px;
+	.contact_info {
+		display: inline-block;
 		text-align: left;
 	}
 
