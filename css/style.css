@@ -152,18 +152,28 @@ label.light {
 	form {
 		max-width: 480px;
 	}
-
 }
+
+@media (max-width: 760px) {
+	body>hr {
+		max-width: 90%;
+	}
+}
+
 
 /* ================================= 
   Media Queries to adjust devices for wider screens and devices.
 ==================================== */
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
 	form {
 		display: flex;
 		flex-direction: column;
-		max-width: 65%;
+		max-width: 68%;
+	}
+
+	body>hr {
+		max-width: 70%;
 	}
 
 	.fieldset_contact {
