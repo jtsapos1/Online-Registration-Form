@@ -20,7 +20,7 @@ header {
 }
 
 form {
-	max-width: 300px;
+	max-width: 100%;
 	margin: 10px auto;
 	padding: 10px 20px;
 	background: white;
@@ -45,6 +45,7 @@ form {
 
 h1 {
 	margin: 30px 0 10px;
+	padding-left: 13px;
 }
 
 h2 {
@@ -154,15 +155,27 @@ label.light {
 
 @media (min-width: 760px) {
 	form {
-		/* display: flex;
-		flex-direction: column; */
+		display: flex;
+		flex-direction: column;
+		/* justify-content: left; */
 		max-width: 65%;
-		margin: auto;
+		margin: 0 auto;
+		/* margin-left: 80px; */
+
 	}
 
-	.contact_info {
-		display: inline-block;
+	.label {
+		display: flex;
+	}
+
+	label {
+		display: flex;
+		width: 200px;
 		text-align: left;
 	}
 
+	.contact_info {
+		padding-top: 13px;
+
+	}
 }
