@@ -213,6 +213,33 @@ hr.solid {
 	}
 }
 
+@media (max-width: 767px) {
+
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	textarea,
+	select {
+		width: 100%;
+	}
+
+	label {
+		width: 25%;
+		text-align: left;
+	}
+
+	input#zip {
+		max-width: 50%;
+	}
+
+}
 
 /* ================================= 
   Media Queries to adjust devices for wider screens and devices.
@@ -253,18 +280,33 @@ hr.solid {
 		display: flex;
 	}
 
-	input#zip {
-		width: 113px;
+	input {
+		display: inline-block;
 	}
 
-	label#zip {
-		width: 100px;
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	textarea,
+	select {
+		width: 75%;
 	}
+
 
 	label {
-		/* display: flex; */
-		width: 200px;
+		width: 25%;
 		text-align: left;
+	}
+
+	input#zip {
+		width: 113px;
 	}
 
 	.contact_info {
