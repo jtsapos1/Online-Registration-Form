@@ -336,4 +336,9 @@ hr.solid {
 		margin-top: 30px;
 		width: fit-content;
 	}
+
+	textarea#topics {
+		width: 100%;
+
+	}
 }
