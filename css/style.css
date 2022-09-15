@@ -154,6 +154,20 @@ label.light {
 	margin: auto
 }
 
+.hr1 {
+	height: 7px;
+	background: black;
+	border: none;
+	margin-bottom: 3px;
+}
+
+.hr2 {
+	height: 4px;
+	background: grey;
+	border: none;
+	margin-top: 0px;
+}
+
 /* ================================= 
   Media Queries to adjust devices for smaller screens and devices.
 ==================================== */
@@ -173,7 +187,6 @@ label.light {
 		font-weight: bolder;
 	}
 }
-
 
 /* ================================= 
   Media Queries to adjust devices for wider screens and devices.
