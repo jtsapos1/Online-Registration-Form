@@ -244,6 +244,11 @@ hr.solid {
 		width: fit-content;
 	}
 
+	textarea#topics {
+		width: 100%;
+
+	}
+
 }
 
 /* ================================= 
