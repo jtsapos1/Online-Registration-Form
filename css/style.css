@@ -168,13 +168,14 @@ label.light {
 	margin-top: 0px;
 }
 
-.hrform {
+
+.hrsolid {
 	max-width: 100%;
 	padding: 0 12px;
 	margin: auto
 }
 
-.hr3 {
+hr.solid {
 	height: 4px;
 	background: grey;
 	border: none;
@@ -246,5 +247,18 @@ label.light {
 	.contact_info {
 		padding-top: 13px;
 
+	}
+
+	.hrsolid {
+		max-width: 100%;
+		padding: 0px 12px;
+		margin: auto
+	}
+
+	hr.solid {
+		height: 4px;
+		background: grey;
+		border: none;
+		margin-top: 12px;
 	}
 }
