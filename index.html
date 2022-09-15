@@ -27,7 +27,9 @@
 
 	<form action="index.html" method="post" class="contact_form">
 
-		<h1 class="contact">Contact Information</h1>
+		<legend>
+			<h1 class="contact">Contact Information</h1>
+		</legend>
 
 		<fieldset class="fieldset_contact">
 			<div class="label">
@@ -65,7 +67,7 @@
 
 		<fieldset>
 
-			<label class="newsletter">Newsletter:</label>
+			<legend><label class="newsletter">Newsletter:</label></legend>
 			<p>Select the newsletters you would like to receive</p>
 			<input type="checkbox" id="HTML_news" value="HTML_news" name="user_news"><label for="HTML_news" class="light">HTML
 				News</label><br>
@@ -74,21 +76,16 @@
 			<input type="checkbox" id="javascript_news" value="javascript_news" name="user_news"><label for="javascript_news"
 				class="light">Javascript News</label>
 
-		</fieldset>
-
-		<fieldset>
-
 			<p class="news_format">Newsletter Format</p>
 			<input type="radio" id="html" value="html" name="user_format"><label for="html" class="light">HTML</label><br>
 			<input type="radio" id="text_choice" value="text_choice" name="user_format"><label for="text_choice"
-				class="light">Text</label><br>
+				class="light">Plain Text</label>
 
-		</fieldset>
 
-		<fieldset>
-
-			<p>Other topics you'd like to hear about</p>
-			<textarea id="topics" name="user_topics"></textarea>
+			<div class="other">
+				<label for="topics">Other topics you'd like to hear about</label>
+				<textarea id="topics" name="user_topics"></textarea>
+			</div>
 
 		</fieldset>
 
