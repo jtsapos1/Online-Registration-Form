@@ -91,6 +91,18 @@ select {
 	margin-bottom: 30px;
 }
 
+input[type=text]:focus {
+	background-color: #3ac162;
+}
+
+input[type=email]:focus {
+	background-color: #3ac162;
+}
+
+input[type=tel]:focus {
+	background-color: #3ac162;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
 	margin: 0 4px 8px 0;
