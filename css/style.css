@@ -91,15 +91,9 @@ select {
 	margin-bottom: 30px;
 }
 
-input[type=text]:focus {
-	background-color: #3ac162;
-}
-
-input[type=email]:focus {
-	background-color: #3ac162;
-}
-
-input[type=tel]:focus {
+input:focus,
+select:focus,
+textarea:focus {
 	background-color: #3ac162;
 }
 
@@ -209,7 +203,7 @@ hr.solid {
   Media Queries to adjust for smaller screens and devices.
 ==================================== */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
 	.contact {
 		padding: 0;
 		width: max-content;
@@ -223,9 +217,9 @@ hr.solid {
 		font-size: larger;
 		font-weight: bolder;
 	}
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 
 	input[type="text"],
 	input[type="password"],
@@ -261,7 +255,7 @@ hr.solid {
 
 	}
 
-}
+} */
 
 /* ================================= 
   Media Queries to adjust devices for wider screens and devices.
